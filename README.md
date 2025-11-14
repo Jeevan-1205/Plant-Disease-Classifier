@@ -40,13 +40,13 @@ Standard PyTorch transforms
 
 3. Model Architecture
 
-Backbone: ResNet / VGG / MobileNet (as used in your notebook)
+Backbone: ResNet 152
 
 Fully connected classifier head fine-tuned for plant leaf disease categories
 
 Loss: Cross-entropy
 
-Optimizer: Adam / SGD
+Optimizer: Adam 
 
 Evaluation metrics: Accuracy, Loss, Confusion Matrix
 
@@ -74,7 +74,7 @@ Clear visualization of model confidence
 
 Grad-CAM highlights infected regions of leaves
 
-(Include metrics later if you want: e.g., Accuracy: 97%)
+
 
 🛠️ Tech Stack
 
